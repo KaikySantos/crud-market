@@ -1,0 +1,68 @@
+.background{
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bg-navbar{
+    background-color: rgb(35, 209, 50);
+}
+
+.bg-produto{
+    background-color: rgb(35, 209, 50);
+}
+
+.bg-codigo{
+    background-color: rgb(35, 209, 50);
+}
+
+.bg-preco{
+    background-color: rgb(35, 209, 50);
+}
+
+thead{
+    background-color: rgb(35, 209, 50);
+}
+
+
+tbody tr{
+    background-color: rgba(0, 0, 0, 0.281);
+    color: white;
+}
+tbody tr:hover{
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+
+
+*{
+    font-family: 'Sanchez', serif;
+}
+
+.logo{
+    filter: invert(100%); /* INVERTER COR */
+}
+
+.msg-p{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.titulo{
+    font-size: 25px;
+    font-family: 'Bree Serif', serif;
+}
+
+img.options{
+    border-radius: 10px;
+    padding: 6px;
+    margin-right: 5px;
+}
+
+.bg-btn{
+    background-color: rgb(32, 182, 45);
+}
